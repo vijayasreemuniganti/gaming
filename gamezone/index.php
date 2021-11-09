@@ -21,9 +21,10 @@ session_start();
     <div class="container">
         <div class="row mt-4">
             <div class="col-md-8 col-lg-8 text-center mx-auto">
-                <h2 class="text-center border rounded p-2">Welcome To Gueesing Game</h2>
+                <h2 class="text-center border rounded p-2" style="color:Tomato;" >Welcome To Guessing Game</h2>
                 <p><i>You will have <b>5</b> tries to guess the correct number <b>(1-20)</b></i></p>
-                <h4 class="text-success "><i>GOOD LUCK</i></h4>
+                <img src= "https://image.shutterstock.com/image-vector/farewell-quote-all-best-poster-600w-593796308.jpg" width= "200px" height= "100px" ><br>
+               
 
                 <a href="guessingGame.php" class="btn btn-lg btn-danger text-center">Start The Game</a>
 
