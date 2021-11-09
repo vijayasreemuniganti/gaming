@@ -55,16 +55,20 @@ session_start();
                         $_SESSION['counter'] = $_SESSION['counter'] + 1;
                         //echo "Counter " . $_SESSION['counter'] . "<br>";
                         if ($guessNumber < $rand) {
+                             echo '<img src="https://previews.123rf.com/images/arcady31/arcady311705/arcady31170500009/77165345-oops-vector-banner-with-emoji.jpg" height="130px" width="150px">';
                             echo "<h2 class='text-danger text-center'> Opps... </h2>";
                            echo "<h4 class='text-danger text-center'> Your Guessed Number is Too Low </h4>";
                            echo "<h2 class='text-danger text-center'> Please Try Again... </h2>"; 
                         }else if($guessNumber > $rand){
+                             echo '<img src="https://previews.123rf.com/images/arcady31/arcady311705/arcady31170500009/77165345-oops-vector-banner-with-emoji.jpg" height="130px" width="150px">';
                             echo "<h2 class='text-primary text-center'> Opps... </h2>";
                             echo "<h4 class='text-primary text-center'> Your Guessed Number is Too High </h4>";
                              echo "<h2 class='text-primary text-center'> Please Try Again... </h2>"; 
                         }
                         else if($rand == $guessNumber) {
-                            echo "<h2 class='text-success text-center'> Congratulations !!! </h2>";
+                            echo '<img src="https://t4.ftcdn.net/jpg/03/61/34/63/360_F_361346394_x5omMsoglwAJ2I1Dh4K53nZePHpiXylL.jpg" height="300px" width="400px">';
+                    
+                          
                             echo "<h4 class='text-success border text-center'> You Guessed The Correct Number " . $rand . "<br>"
                                 . "You Have Tried " . $_SESSION['counter'] . " Times </h4>";
                             $_SESSION['counter'] = 0;
